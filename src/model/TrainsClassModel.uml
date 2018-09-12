@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="600.7232142857144" y="517.0">com.thoughtworks.trains.calculators.TripsCalculator</node>
+    <node x="889.1782924107144" y="288.0">com.thoughtworks.trains.model.Graph</node>
+    <node x="891.479761904762" y="682.0">com.thoughtworks.trains.main.Main</node>
+    <node x="1054.7232142857144" y="517.0">com.thoughtworks.trains.calculators.ShortRouteCalculator</node>
+    <node x="811.3116629464287" y="0.0">com.thoughtworks.trains.model.Town</node>
+    <node x="1507.7232142857144" y="517.0">com.thoughtworks.trains.util.InputFileReader</node>
+    <node x="177.72321428571433" y="517.0">com.thoughtworks.trains.calculators.RoutesCalculator</node>
+    <node x="0.0" y="310.0">com.thoughtworks.trains.calculators.RouteDistanceCalculator</node>
+    <node x="363.604761904762" y="332.5">com.thoughtworks.trains.calculators.HelperCalculator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.thoughtworks.trains.main.Main" target="com.thoughtworks.trains.util.InputFileReader">
+      <point x="78.375" y="-26.0" />
+      <point x="1055.354761904762" y="662.0" />
+      <point x="1653.9732142857144" y="662.0" />
+      <point x="48.75" y="37.5" />
+    </edge>
+    <edge source="com.thoughtworks.trains.calculators.TripsCalculator" target="com.thoughtworks.trains.model.Graph">
+      <point x="168.8" y="-37.5" />
+      <point x="980.5232142857144" y="477.0" />
+      <point x="1030.4907924107144" y="477.0" />
+      <point x="-20.1875" y="59.5" />
+    </edge>
+    <edge source="com.thoughtworks.trains.calculators.ShortRouteCalculator" target="com.thoughtworks.trains.model.Town">
+      <point x="144.33333333333331" y="-37.5" />
+      <point x="1415.5565476190477" y="497.0" />
+      <point x="1308.4568824404764" y="497.0" />
+      <point x="1308.4568824404764" y="248.0" />
+      <point x="1056.0616629464287" y="248.0" />
+      <point x="111.25" y="114.0" />
+    </edge>
+    <edge source="com.thoughtworks.trains.main.Main" target="com.thoughtworks.trains.calculators.RoutesCalculator">
+      <point x="-49.875" y="-26.0" />
+      <point x="927.104761904762" y="642.0" />
+      <point x="278.47321428571433" y="642.0" />
+      <point x="-100.75" y="37.5" />
+    </edge>
+    <edge source="com.thoughtworks.trains.model.Graph" target="com.thoughtworks.trains.model.Town">
+      <point x="-107.66666666666669" y="-59.5" />
+      <point x="943.0116257440477" y="268.0" />
+      <point x="922.5616629464287" y="268.0" />
+      <point x="-22.25" y="114.0" />
+    </edge>
+    <edge source="com.thoughtworks.trains.calculators.ShortRouteCalculator" target="com.thoughtworks.trains.model.Graph">
+      <point x="-144.33333333333337" y="-37.5" />
+      <point x="1126.889880952381" y="497.0" />
+      <point x="1151.6157924107144" y="497.0" />
+      <point x="100.9375" y="59.5" />
+    </edge>
+    <edge source="com.thoughtworks.trains.calculators.RoutesCalculator" target="com.thoughtworks.trains.calculators.HelperCalculator">
+      <point x="57.571428571428555" y="-37.5" />
+      <point x="436.7946428571429" y="497.0" />
+      <point x="415.729761904762" y="497.0" />
+      <point x="-17.375" y="15.0" />
+    </edge>
+    <edge source="com.thoughtworks.trains.calculators.TripsCalculator" target="com.thoughtworks.trains.model.Town">
+      <point x="0.0" y="-37.5" />
+      <point x="811.7232142857144" y="437.0" />
+      <point x="761.4464657738097" y="437.0" />
+      <point x="761.4464657738097" y="268.0" />
+      <point x="878.0616629464287" y="268.0" />
+      <point x="-66.75" y="114.0" />
+    </edge>
+    <edge source="com.thoughtworks.trains.main.Main" target="com.thoughtworks.trains.model.Graph">
+      <point x="21.375" y="-26.0" />
+      <point x="998.354761904762" y="622.0" />
+      <point x="1044.2232142857144" y="622.0" />
+      <point x="1044.2232142857144" y="497.0" />
+      <point x="1111.2407924107144" y="497.0" />
+      <point x="60.5625" y="59.5" />
+    </edge>
+    <edge source="com.thoughtworks.trains.calculators.RoutesCalculator" target="com.thoughtworks.trains.calculators.RouteDistanceCalculator">
+      <point x="-172.71428571428572" y="-37.5" />
+      <point x="206.50892857142867" y="497.0" />
+      <point x="203.75" y="497.0" />
+      <point x="40.75" y="37.5" />
+    </edge>
+    <edge source="com.thoughtworks.trains.main.Main" target="com.thoughtworks.trains.calculators.TripsCalculator">
+      <point x="-7.125" y="-26.0" />
+      <point x="969.854761904762" y="612.0" />
+      <point x="917.2232142857144" y="612.0" />
+      <point x="105.5" y="37.5" />
+    </edge>
+    <edge source="com.thoughtworks.trains.calculators.RoutesCalculator" target="com.thoughtworks.trains.model.Town">
+      <point x="-57.57142857142861" y="-37.5" />
+      <point x="321.6517857142857" y="497.0" />
+      <point x="336.50000000000006" y="497.0" />
+      <point x="336.50000000000006" y="258.0" />
+      <point x="833.5616629464287" y="258.0" />
+      <point x="-111.25" y="114.0" />
+    </edge>
+    <edge source="com.thoughtworks.trains.main.Main" target="com.thoughtworks.trains.calculators.RouteDistanceCalculator">
+      <point x="-64.125" y="-26.0" />
+      <point x="912.854761904762" y="652.0" />
+      <point x="103.60476190476197" y="652.0" />
+      <point x="103.60476190476197" y="497.0" />
+      <point x="122.25" y="497.0" />
+      <point x="-40.75" y="37.5" />
+    </edge>
+    <edge source="com.thoughtworks.trains.calculators.RoutesCalculator" target="com.thoughtworks.trains.model.Graph">
+      <point x="115.14285714285711" y="-37.5" />
+      <point x="494.36607142857144" y="447.0" />
+      <point x="909.3657924107144" y="447.0" />
+      <point x="-141.3125" y="59.5" />
+    </edge>
+    <edge source="com.thoughtworks.trains.main.Main" target="com.thoughtworks.trains.calculators.ShortRouteCalculator">
+      <point x="35.625" y="-26.0" />
+      <point x="1012.604761904762" y="632.0" />
+      <point x="1162.9732142857144" y="632.0" />
+      <point x="-108.25" y="37.5" />
+    </edge>
+    <edge source="com.thoughtworks.trains.calculators.TripsCalculator" target="com.thoughtworks.trains.calculators.HelperCalculator">
+      <point x="-168.79999999999995" y="-37.5" />
+      <point x="642.9232142857145" y="437.0" />
+      <point x="450.479761904762" y="437.0" />
+      <point x="17.375" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.475739988392339" x="1047.4981825565287" y="347.12282582563523" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

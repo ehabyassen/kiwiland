@@ -1,0 +1,6 @@
+com\thoughtworks\trains\calculators\RouteDistanceCalculatorTest.class
+com\thoughtworks\trains\calculators\HelperCalculatorTest.class
+com\thoughtworks\trains\calculators\ShortRouteCalculatorTest.class
+com\thoughtworks\trains\calculators\TripsCalculatorTest.class
+com\thoughtworks\trains\calculators\RoutesCalculatorTest.class
+com\thoughtworks\trains\util\InputFileReaderTest.class
