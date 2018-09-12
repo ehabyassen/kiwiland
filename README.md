@@ -1,5 +1,6 @@
-**********************************Notes & Steps to build, run & test the application**********************************
-Notes:
+**Notes & Steps to build, run & test the application**
+
+**Notes:**
 - Input data file can be found under "data/input.txt".
 - Input data must be in the form: RouteDistance[Two Alphabet Characters & Positive Number], RouteDistance,..etc
   
@@ -8,7 +9,7 @@ Notes:
 - Attached Documents: Trains Challenge, Trains Class Model, Trains Documentation, Trains Graph Example
 - Trains Class Model .uml file can be found under "src/model/TrainsClassModel.uml".
 
-Building Steps:
+**Building Steps:**
 - Open a command window in the project directory.
 - To clean the project, run the command ...\Trains> mvn clean
 - To build the project, run the command ...\Trains> mvn install																	'runs the tests also'
@@ -16,11 +17,11 @@ Building Steps:
 - To clean, update and build the project, run the command ...\Trains> mvn clean install -U										'runs the tests also'
 - To clean, update and build the project and skip the tests, run the command ...\Trains> mvn clean install -U -DskipTests
 
-Testing Steps:
+**Testing Steps:**
 - Open a command window in the project directory.
 - To run the project's tests, run the command ...\Trains> mvn test
 
-Running Steps:
+**Running Steps:**
 - Provide input data in a right form.
 - Open a command window in the project directory.
 - To clean, update and build the project, run the command ...\Trains> mvn clean install -U
