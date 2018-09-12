@@ -1,4 +1,4 @@
-********************************************Notes & Steps to build, run & test the application********************************************
+**********************************Notes & Steps to build, run & test the application**********************************
 Notes:
 - Input data file can be found under "data/input.txt".
 - Input data must be in the form: RouteDistance[Two Alphabet Characters & Positive Number], RouteDistance,..etc
@@ -25,4 +25,4 @@ Running Steps:
 - Open a command window in the project directory.
 - To clean, update and build the project, run the command ...\Trains> mvn clean install -U
 - To run the project, run the command ...\Trains> mvn clean compile exec:java
-******************************************************************************************************************************************
+**********************************************************************************************************************
